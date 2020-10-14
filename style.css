@@ -1,0 +1,24 @@
+
+
+.tooltip {
+    position: fixed;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 12px;
+    color: white;
+}
+.tooltip.hidden {
+    display: none;
+}
